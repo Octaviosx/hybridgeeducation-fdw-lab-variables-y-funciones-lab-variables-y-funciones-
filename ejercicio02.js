@@ -2,8 +2,11 @@
 // Declara una función llamada "obtenerPI" que retorne el valor 3.1416
 
 //define tu función aquí
-
-
+function obtenerPI() {
+    const pi = 3.1416;
+    return pi
+}
+ console.log(obtenerPI());
 // No modificar
 // Exporta la función para que pueda ser utilizada en otros archivos
 // Como ves, tu función debe tener el nombre obtenerPI
